@@ -1,0 +1,22 @@
+{
+  "name": "lainogoxoak",
+  "version": "0.1.0",
+  "homepage": "https://bitbucket.org/jordi_diaz/lainogoxoak",
+  "authors": [
+    "Jordi Díaz Añorga <diaz.jordi@gmail.com>"
+  ],
+  "description": "Brunch skeleton for static websites",
+  "keywords": [
+    "brunch",
+    "static"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.0"
+  }
+}

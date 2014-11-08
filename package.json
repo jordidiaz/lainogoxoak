@@ -1,0 +1,30 @@
+{
+  "author": "Jordi Díaz Añorga",
+  "name": "lainogoxoak",
+  "description": "lainogoxoak website",
+  "version": "0.1.0",
+  "homepage": "https://bitbucket.org/jordi_diaz/lainogoxoak",
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/jordi_diaz/lainogoxoak"
+  },
+  "engines": {
+    "node": "~0.6.10 || 0.8 || 0.9 || 0.10"
+  },
+  "scripts": {
+    "start": "brunch watch --server"
+  },
+  "dependencies": {
+    "javascript-brunch": "~1.7.1",
+    "css-brunch": "~1.7.0",
+    "uglify-js-brunch": "~1.7.7",
+    "clean-css-brunch": "~1.7.1",
+    "stylus-brunch": "~1.8.1",
+    "coffee-script-brunch": "~1.8.1",
+    "static-jade-brunch": "~1.7.0",
+    "jade-brunch": "~1.8.1",
+    "auto-reload-brunch": "~1.7.5"
+  },
+  "devDependencies": {
+  }
+}
