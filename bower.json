@@ -17,6 +17,42 @@
     "bower_components"
   ],
   "dependencies": {
-    "bootstrap": "~3.3.0"
+    "bootstrap": "~3.3.0",
+    "font-awesome": "~4.2.0",
+    "flexslider": "*",
+    "respond": "~1.4.2",
+    "modernizr": "~2.8.3",
+    "jquery.scrollTo": "~1.4.13",
+    "jquery-waypoints": "~2.0.5",
+    "jquery-masonry": "2.1.0",
+    "jquery-backstretch": "~2.0.4"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "less/bootstrap.less",
+        "dist/css/bootstrap.css",
+        "dist/js/bootstrap.js"
+      ]
+    },
+    "font-awesome": {
+      "main": "css/font-awesome.css"
+    },
+    "flexslider": {
+      "main": [
+        "flexslider.less",
+        "flexslider.css",
+        "jquery.flexslider.js"
+      ]
+    },
+    "modernizr": {
+      "main": "modernizr.js"
+    },
+    "jquery": {
+      "main": "jquery.js"
+    },
+    "jquery-masonry": {
+      "main": "jquery.masonry.js"
+    }
   }
 }
