@@ -11,12 +11,12 @@ body{
 }
 
 a{
-	color:#F28C83;
+	color:#F06870;
 	text-decoration:none
 }
 
 a:hover,a:focus{
-	color:#F28C83;
+	color:#F06870;
 	text-decoration:underline
 }
 
@@ -67,7 +67,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 
 .bg-color2{
     color:#fff;
-    background:#F28C83;
+    background:#F06870;
 }
 
 .bg-color3{
@@ -76,11 +76,11 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 }
 
 .border-bottom-color2{
-    border-bottom:7px solid #F28C83;
+    border-bottom:7px solid #F06870;
 }
 
 .border-top-color2{
-    border-top:7px solid #F28C83;
+    border-top:7px solid #F06870;
 }
 
 .color1 .service-icon,
@@ -94,11 +94,11 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 
 .color2 .service-icon,
 .color2.service-item ul li:nth-child(2):before{
-    background:#F28C83;
+    background:#F06870;
 }
 
 .color2 .service-icon:after{
-    border:3px solid #F28C83;
+    border:3px solid #F06870;
 }
 
 .color3 .service-icon,
@@ -120,7 +120,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
     color:#fff;
     font-size: 21px;
     font-weight: 300;
-    background:#F28C83;
+    background:#F06870;
     outline: none !important;
     border-radius: 0;
     transition: opacity .2s ease-out;
@@ -272,7 +272,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 
 #main-nav.scrolled .nav li.active a,
 #main-nav.scrolled .nav a:hover{
-    color: #F28C83;
+    color: #F06870;
 }
 
 /*-----------------------
@@ -428,7 +428,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 
 .skill1{
     left:0;
-    background: #F28C83;
+    background: #F06870;
 }
 
 .skill2{
@@ -468,7 +468,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 
 #portfolio{
     padding-top:70px;
-    background:url('../images/bg-portfolio.jpg') no-repeat fixed;
+    background:url('../images/lg-bg.jpg') no-repeat fixed;
     background-size:cover;
     color:#fff;
 }
@@ -964,7 +964,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 
 #contact-form .form-control:focus {
     background:#fff;
-    border-bottom:3px solid #F28C83;
+    border-bottom:3px solid #F06870;
     outline:none;
     box-shadow:none;
     -webkit-transition:border-color .3s ease-in;
@@ -1012,7 +1012,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 }
 
 #gmap .infowin a{
-    color:#F28C83;
+    color:#F06870;
 }
 
 #gmap .infowin a:hover{
@@ -1309,7 +1309,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 
     #main-nav .nav li.active a,
     #main-nav .nav a:hover{
-        color: #F28C83;
+        color: #F06870;
     }
 
     #main-nav .navbar-brand{
