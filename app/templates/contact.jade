@@ -2,27 +2,25 @@ section#contact.add-padding
   .container.text-center
     .row
       .col-sm-6.col-md-5.text-right.scrollimation.fade-up.d1
-        h1.big-text Contáctanos
-        p.lead
-          | Si te gusta lo que hacemos no dudes en ponerte en contacto con nosotras
+        h1.big-text(data-i18n="contact.contact-us")
+        p.lead(data-i18n="contact.contact-us-text")
       form#contact-form.col-sm-6.col-md-offset-1.scrollimation.fade-left.d3(novalidate='')
         .form-group
-          label.control-label(for='contact-name') Tu nombre
+          label.control-label(for='contact-name', data-i18n="contact.your-name")
           .controls
-            input#contact-name.form-control.requiredField(name='contactName', placeholder='Tu nombre', data-new-placeholder='Tu nombre', type='text', data-error-empty='¡Falta tu nombre!')
+            input#contact-name.form-control.requiredField(name='contactName', type="text", data-i18n="[placeholder]contact.your-name;[data-new-placeholder]contact.your-name;[data-error-empty]contact.your-name-empty")
             i.fa.fa-user
         .form-group
-          label.control-label(for='contact-mail') Tu email
+          label.control-label(for='contact-mail', data-i18n="contact.your-email")
           .controls
-            input#contact-mail.form-control.requiredField(name='email', placeholder='Tu email', data-new-placeholder='Tu email', type='email', data-error-empty='¡Falta tu email!', data-error-invalid='¡El email no es válido!')
+            input#contact-mail.form-control.requiredField(name='email', type="email", data-i18n="[placeholder]contact.your-email;[data-new-placeholder]contact.your-email;[data-error-empty]contact.your-email-empty;[data-error-invalid]contact.your-email-not-valid")
             i.fa.fa-envelope
         .form-group
-          label.control-label(for='contact-message') Tu mensaje
+          label.control-label(for='contact-message', data-i18n="contact.your-message")
           .controls
-            textarea#contact-message.form-control.requiredField(name='comments', placeholder='Tu mensaje', data-new-placeholder='Tu mensaje', rows='6', data-error-empty='¡Falta tu mensaje!')
+            textarea#contact-message.form-control.requiredField(name='comments', rows="6", data-i18n="[placeholder]contact.your-message;[data-new-placeholder]contact.your-message;[data-error-empty]contact.your-message-empty")
             i.fa.fa-comment
         p
-          button#send-mail.btn.btn-color2.btn-block(name='submit', data-error-message='¡Error!', data-sending-message='Enviando...', data-ok-message='¡Mensaje enviado!')
-            i.fa.fa-paper-plane
-            | Envía el mensaje
-        input#submitted(type='hidden', name='submitted', value='true')      
+          button#send-mail.btn.btn-color2.btn-block(name='submit', data-i18n="[data-error-message]contact.error;[data-sending-message]contact.sending;[data-ok-message]contact.sent")
+            i.fa.fa-paper-plane(data-i18n="contact.send-message")
+        input#submitted(type='hidden', name='submitted', value='true')
