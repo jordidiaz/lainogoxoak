@@ -5,5 +5,33 @@
     "services": "Zer egiten dugu",
     "portfolio": "Lanak",
     "contact": "Kontaktua"
+  },
+  "about": {
+    "first": "Gozogintzara zaletutako bi lagun gara",
+    "second": "Zure bizitza gozotu nahiko genuke zure ospakizunei itxura elegante eta ikutu dibertigarri bat emanez",
+    "third": "Kreazio gozogintza, klasikoa, postre pertsonalizatu eta mahai gozoetan adituak gara"
+  },
+  "services": {
+    "first-title": "Kreazio gozogintza",
+    "first-text": "Ikutu pertsonala eta dibertigarria duten pastelak, gailetak edo eta cupcakeak egiten ditugu",
+    "second-title": "Mahai gozoak",
+    "second-text": "Diseinu pertsonalizatua duten mahai gozoak dira. Aukeratutako gaia eta paisaia kontuan hartuz apainduak",
+    "third-title": "Tailerrak",
+    "third-text": "Zure lagunekin ondo pasa nahi al duzu? Haur talde bat entretenitu? Gurekin kontaktatu eta gure tailerrak nola diren azalduko dizugu"
+  },
+  "contact": {
+    "contact-us": "Kontaktatu",
+    "contact-us-text": "Egiten duguna atsegin baduzu kontaktatu gurekin",
+    "your-name": "Zure izena",
+    "your-email": "Zure emaila",
+    "your-message": "Zure mezua",
+    "send-message": " Bidali mezua",
+    "your-name-empty": "Izena falta da!",
+    "your-email-empty": "Emaila falta da!",
+    "your-email-not-valid": "Emaila ez da baliozkoa!",
+    "your-message-empty": "Mezua falta da!",
+    "error": "Errorea!",
+    "sending": "Bidaltzen...",
+    "sent": "Mezua bidalia!"
   }
 }
