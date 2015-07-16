@@ -12,22 +12,18 @@ exports.config =
   files:
     javascripts:
       joinTo:
-        'javascripts/app.js': /^app/
-        'javascripts/vendor.js': /^bower_components/
+        'javascripts/vendor.js': /^(bower_components|vendor)/
       order:
         before: []
 
     stylesheets:
       joinTo:
         'stylesheets/app.css': /^app/
-        'stylesheets/vendor.css': /^bower_components/
+        'stylesheets/vendor.css': /^(bower_components|vendor)/
       order:
         before: []
-        after: []
+        # after: ['bower_components/font-awesome/css/font-awesome.min.css']
 
     # Ensure that our jade templates don't get compiled into our app JS.
     templates:
       joinTo: 'javascripts/template.js'
-
-  conventions:
-    assets: /(assets|font)/

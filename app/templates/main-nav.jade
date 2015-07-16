@@ -1,0 +1,28 @@
+.main-nav
+  div#main-nav.navbar.navbar-fixed-top
+    div.container
+      div.navbar-header
+        button.navbar-toggle(type='button', data-toggle='collapse', data-target='#site-nav')
+          span.icon-bar
+          span.icon-bar
+          span.icon-bar
+        a.navbar-brand.scrollto(href='#home')
+          | Laino Goxoak
+      div#site-nav.navbar-collapse.collapse
+        ul.nav.navbar-nav.navbar-right
+          li.sr-only
+            a.scrollto(href='#home', data-i18n="main-nav.home")
+          li
+            a.scrollto(href='#about', data-i18n="main-nav.about")
+          li
+            a.scrollto(href='#services', data-i18n="main-nav.services")
+          li
+            a.scrollto(href='#portfolio', data-i18n="main-nav.portfolio")
+          li
+            a.scrollto(href='#contact', data-i18n="main-nav.contact")
+          li
+            a.lnges.hidden(href='#')
+              | Español
+          li
+            a.lngeu(href='#')
+              | Euskaraz

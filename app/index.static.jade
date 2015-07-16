@@ -1,15 +1,34 @@
-doctype html
-html(lang='en')
+doctype html    
+html.no-js(lang='es-ES')
+
   head
+    //- metas
     meta(charset='utf-8')
-    meta(name='viewport', content='width=device-width, initial-scale=1.0')
-    meta(name='description', content='')
-    title Brunch Static
+    title Laino Goxoak
+    meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name="description", content="Laino Goxoak: Repostería creativa, Mesas dulces, Cupcakes, Cakepops, Talleres")
+    meta(name="keywords", content="laino, goxoak, lainogoxoak, repostería, creativa, fondant, mesas, dulces, cupcakes, cakepops, talleres, zarautz, orio")
+    meta(name="robots", content="index, follow")
+    //- favicon
+    link(rel='shortcut icon', href='assets/images/favicon.ico')
+    link(rel='apple-touch-icon', href='assets/images/apple-touch-icon.png')
+    link(rel='apple-touch-icon', sizes='72x72', href='assets/images/apple-touch-icon-72x72.png')
+    link(rel='apple-touch-icon', sizes='114x114', href='assets/images/apple-touch-icon-114x114.png')
+    //- css
     link(rel='stylesheet', href='stylesheets/app.css', type='text/css')
     link(rel='stylesheet', href='stylesheets/vendor.css', type='text/css')
-  body
-    h1 Brunch Static
-    p Brunch with stylus, jade, coffeescript and bootstrap.
-    include templates/section.jade
-    script(type='text/javascript', src='javascripts/app.js')
+    //- font
+    link(href='http://fonts.googleapis.com/css?family=Raleway:400,300,200,500,600,700', rel='stylesheet', type='text/css')
+
+  body(data-spy='scroll', data-target='#main-nav', data-offset='200')
+    include templates/page-loader.jade
+    include templates/main-nav.jade
+    include templates/header.jade
+    include templates/about.jade
+    include templates/services.jade
+    include templates/portfolio.jade
+    include templates/contact.jade
+    include templates/twitter.jade
+    include templates/footer.jade
     script(type='text/javascript', src='javascripts/vendor.js')
