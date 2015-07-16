@@ -18,5 +18,5 @@ $(document).ready ->
           autotext: 'true'
           subject: 'Mensaje desde web'
           html: $('#contact-message').val())
-    .done (response) ->
+    .always (response, status, error) ->
       return
