@@ -33,5 +33,11 @@
     "error": "¡Error!",
     "sending": "Enviando...",
     "sent": "¡Mensaje enviado!"
+  },
+  "portfolio": {
+    "all": "Todo",
+    "creative": "Reposteria creativa",
+    "tables": "Mesas dulces",
+    "workshop": "Talleres"
   }
 }

@@ -33,5 +33,11 @@
     "error": "Errorea!",
     "sending": "Bidaltzen...",
     "sent": "Mezua bidalia!"
+  },
+  "portfolio": {
+    "all": "Guztia",
+    "creative": "Kreazio gozogintza",
+    "tables": "Mahai gozoak",
+    "workshop": "Tailerrak"
   }
 }
