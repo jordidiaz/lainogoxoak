@@ -2,6 +2,10 @@ $(document).ready ->
 
   $('#send-mail').on 'click', (e) ->
     e.preventDefault()
+
+    buttonCopy = $('#contact-form button').html()
+    okMessage = $('#contact-form button').data('ok-message')
+
     $.ajax(
       type: 'POST'
       url: 'https://mandrillapp.com/api/1.0/messages/send.json'
@@ -20,4 +24,8 @@ $(document).ready ->
           subject: 'Mensaje desde web'
           html: $('#contact-message').val())
     .always (response, status, error) ->
-      return
+      $('#contact-form button').html('<i class="fa fa-check"></i>'+okMessage)
+      $('#contact-form')[0].reset()
+      setTimeout(->
+        $('#contact-form button').html(buttonCopy)
+      ,2000)
