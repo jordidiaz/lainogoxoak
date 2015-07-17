@@ -1,0 +1,43 @@
+{
+  "main-nav": {
+    "about": "Nosotras",
+    "home": "Inicio",
+    "services": "Que hacemos",
+    "portfolio": "Trabajos",
+    "contact": "Contacto"
+  },
+  "about": {
+    "first": "Somos dos amigas aficionadas a la repostería",
+    "second": "Nos gustaría endulzar vuestras  fiestas y eventos más importantes dándoles un toque divertido y elegante",
+    "third": "Especialistas en repostería creativa, clásica, mesas dulces y postres personalizados"
+  },
+  "services": {
+    "first-title": "Reposteria creativa",
+    "first-text": "Elaboración de pasteles, galletas, cupcakes, etc dándoles un toque personal y divertido a la vez que sabroso",
+    "second-title": "Mesas Dulces",
+    "second-text": "Es la realización de un diseño personalizado de mesa en la que el gran protagonismo lo tienen los dulces. Son mesas decoradas en armonía con el paisaje y la temática elegida",
+    "third-title": "Talleres",
+    "third-text": "¿Queréis pasar un rato divertido en una despedida de solter@? ¿Entretener a un grupo de niños? Solo tienes que contactar con nosotras y te explicaremos en que consisten nuestros talleres"
+  },
+  "contact": {
+    "contact-us": "Contáctanos",
+    "contact-us-text": "Si te gusta lo que hacemos no dudes en ponerte en contacto con nosotras",
+    "your-name": "Tu nombre",
+    "your-email": "Tu email",
+    "your-message": "Tu mensaje",
+    "send-message": " Envía tu mensaje",
+    "your-name-empty": "¡Falta tu nombre!",
+    "your-email-empty": "¡Falta tu email!",
+    "your-email-not-valid": "¡Tu email no es válido!",
+    "your-message-empty": "¡Falta tu mensaje!",
+    "error": "¡Error!",
+    "sending": "Enviando...",
+    "sent": "¡Mensaje enviado!"
+  },
+  "portfolio": {
+    "all": "Todo",
+    "creative": "Reposteria creativa",
+    "tables": "Mesas dulces",
+    "workshop": "Talleres"
+  }
+}
