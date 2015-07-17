@@ -1,6 +1,7 @@
 $(document).ready ->
 
-  $('#send-mail').on 'click', ->
+  $('#send-mail').on 'click', (e) ->
+    e.preventDefault()
     $.ajax(
       type: 'POST'
       url: 'https://mandrillapp.com/api/1.0/messages/send.json'
